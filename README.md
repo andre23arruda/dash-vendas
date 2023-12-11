@@ -1,14 +1,20 @@
-<a href="https://andrearruda-dashvendas.streamlit.app/">
-	<h1 align="center">
-		Dashboard Vendas
-	</h1>
-</a>
+<h1 align="center">
+	Dashboard Vendas
+</h1>
 
 <p align="center">
+  	<a href="#-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-instalação">Instalação</a>
 </p>
+
+## 😀 Demo
+<a href="https://andrearruda-dashvendas.streamlit.app/">
+	Dê uma olhada
+</a>
+<br/>
+<br/>
 
 ## 🤖 Tecnologias
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
