@@ -1,6 +1,10 @@
-import streamlit as st
-import requests, time
 import pandas as pd
+import requests, time
+import streamlit as st
+from utils.auth import check_password
+
+if not check_password():
+    st.stop()
 
 @st.cache_data
 def df_to_csv(df):

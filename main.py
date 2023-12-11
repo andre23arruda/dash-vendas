@@ -1,7 +1,8 @@
-import streamlit as st
-import requests
 import pandas as pd
 import plotly.express as px
+import requests
+import streamlit as st
+from utils.auth import check_password
 
 
 def format_number(value: float, prefix='') -> str:
@@ -10,6 +11,9 @@ def format_number(value: float, prefix='') -> str:
             return f'{prefix} {value:.2f} {unity}'
         value /= 1000
     return f'{prefix} {value:.2f} milhões'
+
+if not check_password():
+    st.stop()
 
 st.set_page_config(layout='wide')
 st.title('DASHBOARD DE VENDAS :shopping_trolley:')
