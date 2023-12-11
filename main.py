@@ -162,8 +162,6 @@ with tab_1:
         st.plotly_chart(fig_month_receita, use_container_width=True)
         st.plotly_chart(fig_bar_receita_categorias, use_container_width=True)
 
-    st.dataframe(data)
-
 with tab_2:
     column_1, column_2 = st.columns(2)
     with column_1:
